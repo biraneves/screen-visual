@@ -24,7 +24,7 @@ func Line(char string, size int) {
 
 }
 
-// Return a string the represents a line
+// Return a string that represents a line
 func SLine(char string, size int) string {
 
 	line := ""
