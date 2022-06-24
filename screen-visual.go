@@ -23,3 +23,14 @@ func Line(char string, size int) {
 	fmt.Print(line)
 
 }
+
+// Return a string the represents a line
+func SLine(char string, size int) string {
+
+	line := ""
+	for i := 0; i < size; i++ {
+		line += char
+	}
+	return line
+
+}
